@@ -1,4 +1,4 @@
-> Docs: https://ejs.co/
+> Docs: https://ejs.co/<br/>
 > EJS online: https://ionicabizau.github.io/ejs-playground/
 
 **Para executar: npm start**
