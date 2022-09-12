@@ -1,16 +1,7 @@
-https://ejs.co/
-EJS online: https://ionicabizau.github.io/ejs-playground/
+> Docs: https://ejs.co/
+> EJS online: https://ionicabizau.github.io/ejs-playground/
 
 **Para executar: npm start**
-
-## Recursos ejs:
-
-- Fluxo de controle com `<% %>`
-- Saída com escape com `<%= %>` (função de escape configurável)
-- Saída bruta sem escape com `<%- %>`
-- Modo de corte de nova linha ('slurping de nova linha ') com tag final `-%>`
-- Modo de corte de espaço em branco (slurp all whitespace) para fluxo de controle com `<%_ _%>`
-- Delimitadores personalizados (por exemplo, use `<? ?>` em vez de `<% %>`)
 
 ## Tags ejs:
 
