@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <%- include('../partials/head') %>
+  </head>
+
+  <body class="container">
+    <header><%- include('../partials/header') %></header>
+
+    <main>
+      <div class="jumbotron">
+        <h2 style="color: red">Top Mascots</h2>
+        <p style="color: rgb(25, 141, 25)"><%= tagline %></p>
+
+        <ul>
+          <% mascots.forEach((mascots) => { %>
+          <li style="color: red">
+            <strong style="color: blue"><%= mascots.name %></strong>
+            representing <%= mascots.organization %>, born <%=
+            mascots.birth_year %>
+          </li>
+          <% }) %>
+        </ul>
+      </div>
+    </main>
+
+    <footer><%- include('../partials/footer') %></footer>
+
+    <script src="server.js"></script>
+  </body>
+</html>
